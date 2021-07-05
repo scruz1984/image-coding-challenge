@@ -20,4 +20,4 @@ By default, the program will look for duplicate urls - that is, it will not proc
 I time-boxed this project, but these are the next things I'd do if I were to continue.
 1. Logging needs to be added - right now there are TODO's where we would need to catch exceptions and we should add some logging at various points of the program.
 2. The program still does not run as fast as I'd like it - I believe there is still a place where I'm blocking, maybe with my HTTPClient, and this should be looked into further.
-3. I'm manually writing out the csv - a csv writer should be used to handle this.
+3. I'm manually writing out the csv - a csv writer should be used to handle this instead.
